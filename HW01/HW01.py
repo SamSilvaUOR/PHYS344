@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Fixing random state for reproducibility
-#np.random.seed(19680801)
 
 
 N = 10
@@ -17,10 +16,14 @@ area = (20)
 plt.scatter(x, y, s=area, c=colors, alpha=0.5)
 plt.show()
 
-#############################################################################
-
 # Functions
 import matplotlib
 
 matplotlib.axes.Axes.scatter
 matplotlib.pyplot.scatter
+
+################################################################################
+
+
+
+
